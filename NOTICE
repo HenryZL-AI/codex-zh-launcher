@@ -1,0 +1,14 @@
+This is an independent, third-party project. It is not an OpenAI product and is
+not affiliated with or endorsed by OpenAI. Codex and OpenAI names identify the
+separately installed application; no OpenAI logo, app binary, translation
+dictionary or bundled proprietary source code is redistributed.
+
+The original launcher and translation adapter were developed for this project.
+The adapter delegates other feature flags and changes only the UI translation
+gate while the installed application is running. It uses an internal interface
+that may change in future builds.
+
+Runtime dependency: @electron/asar 4.2.0, MIT, Electron contributors.
+https://github.com/electron/asar
+Transitive dependencies retain their original licenses in node_modules when
+installed. The source archive does not bundle dependency implementations.

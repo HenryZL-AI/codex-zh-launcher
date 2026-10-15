@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+*.png
+*.sqlite*
+*.asar*
+*.app/
+coverage/
+.runtime/
+diagnostics/
+auth.json
+config.toml
+status.json
+validated-builds.json

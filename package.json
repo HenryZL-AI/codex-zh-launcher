@@ -1,0 +1,18 @@
+{
+  "name": "codex-zh-launcher",
+  "version": "0.1.0",
+  "description": "Third-party macOS launcher for the Chinese UI already bundled with Codex Desktop",
+  "author": "HenryZL-AI",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.12.0" },
+  "packageManager": "pnpm@10.14.0",
+  "bin": { "codex-zh": "bin/codex-zh.mjs" },
+  "files": ["bin/", "src/", "docs/", "LICENSE", "NOTICE", "README.md", "README.en.md", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check-release.mjs",
+    "release:archive": "node scripts/archive.mjs"
+  },
+  "dependencies": { "@electron/asar": "4.2.0" }
+}
